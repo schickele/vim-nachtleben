@@ -1,7 +1,7 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web.de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created in 2018-11 | v1.0 | Last change: 2018-11-07
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created in 2018-11 | v1.01 | Last change: 2018-11-07
 
 " Init {{{
 hi clear
@@ -83,9 +83,9 @@ call s:hi('Pmenu',            s:blac, s:lora, '', '')
 call s:hi('PmenuSel',         s:blac, s:mred, '', '')
 call s:hi('PmenuSbar',        s:blac, s:lora, '', '')
 call s:hi('PmenuThumb',       s:blac, s:mred, '', '')
-call s:hi('TabLine',          s:yell, s:blac, '', '')
-call s:hi('TabLineSel',       s:yell, s:blac, 'NONE', '')
-call s:hi('TabLineFill',      s:yell, s:blac, '', '')
+call s:hi('TabLine',          s:dblu, s:blac, '', '')
+call s:hi('TabLineSel',       s:lblu, s:dgra, 'NONE', '')
+call s:hi('TabLineFill',      s:blac, s:blac, '', '')
 call s:hi('CursorColumn',     'NONE', s:dgra, '', '')
 call s:hi('CursorLine',       'NONE', s:dgra, '', '')
 call s:hi('ColorColumn',      'NONE', s:dgra, '', '')
@@ -107,6 +107,11 @@ call s:hi('Underlined',       'NONE', 'NONE', 'UNDERLINE', '')
 call s:hi('Ignore',           'NONE', 'NONE', '', '')
 call s:hi('Error',            s:blac, s:mred, '', '')
 call s:hi('Todo',             s:blac, s:lora, '', '')
+
+hi CursorLine cterm=NONE
+hi VisualNOS  cterm=NONE
+hi TabLine    cterm=NONE
+hi Underlined ctermfg=NONE ctermfg=NONE
 
 hi! link lilySlur         Comment
 hi! link vimCommentString Comment
