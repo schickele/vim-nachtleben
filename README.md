@@ -1,4 +1,4 @@
-# vim-nachtleben
+# nachtleben.vim
 New dark colorscheme with vivid colors for Vim. Well suited for Vim scripts and ConTeXt/LaTeX files.
 
 "Nachtleben" means "nightlife" in German.
