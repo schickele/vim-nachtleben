@@ -1,10 +1,12 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web.de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created in 2018-11 | v1.01 | Last change: 2018-11-07
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2018-11-15 15:46:59 CET
 
 " Init {{{
 hi clear
+
+set background=dark
 
 if exists('syntax on')
     syntax reset
@@ -104,14 +106,21 @@ call s:hi('Statement',        s:dora, s:blac, 'NONE', '')
 call s:hi('PreProc',          s:lblu, s:blac, '', '')
 call s:hi('Type',             s:lora, s:blac, 'NONE', '')
 call s:hi('Underlined',       'NONE', 'NONE', 'UNDERLINE', '')
-call s:hi('Ignore',           'NONE', 'NONE', '', '')
+call s:hi('Ignore',           s:dgra, 'NONE', '', '')
 call s:hi('Error',            s:blac, s:mred, '', '')
 call s:hi('Todo',             s:blac, s:lora, '', '')
 
-hi CursorLine cterm=NONE
-hi VisualNOS  cterm=NONE
-hi TabLine    cterm=NONE
-hi Underlined ctermfg=NONE ctermfg=NONE
+hi CursorLine     cterm=NONE
+hi DiffText       cterm=NONE
+hi Identifier     cterm=NONE
+hi ModeMsg        cterm=NONE
+hi StatusLine     cterm=NONE
+hi StatusLineTerm cterm=NONE
+hi TabLine        cterm=NONE
+hi TabLineSel     cterm=NONE
+hi ToolbarButton  cterm=NONE
+hi VisualNOS      cterm=NONE
+hi Underlined     ctermfg=NONE ctermfg=NONE
 
 hi! link lilySlur         Comment
 hi! link vimCommentString Comment
