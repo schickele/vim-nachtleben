@@ -18,7 +18,7 @@ Copy `nachleben.vim` into your `~/.vim/colors` folder.
 
 Add this to your `vimrc`:
 
-```
+```vim
 " For Vim 8.0 and above
 color nachtleben
 syntax on
