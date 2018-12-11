@@ -1,7 +1,7 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web.de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2018-11-15 15:46:59 CET
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2018-12-07
 
 " Init {{{
 hi clear
@@ -14,16 +14,16 @@ endif
 
 let g:colors_name='nachtleben' " }}}
 
-let s:mred = '#EC224E' " red
-let s:dora = '#EC6C39' " dark orange
-let s:lora = '#F39E35' " light orange
-let s:yell = '#FED522' " yellow
-let s:gree = '#0CC531' " green
-let s:lblu = '#06BED9' " light blue
-let s:dblu = '#327EC9' " dark blue
-let s:mage = '#C026C3' " magenta
+let s:mred = '#ec224e' " red
+let s:dora = '#ec6c39' " dark orange
+let s:lora = '#f39e35' " light orange
+let s:yell = '#fed522' " yellow
+let s:gree = '#0cc531' " green
+let s:lblu = '#06bed9' " light blue
+let s:dblu = '#327ec9' " dark blue
+let s:mage = '#c026c3' " magenta
 
-let s:blac = '#040409' " black
+let s:blac = '#040409' " bluish black
 let s:dgra = '#1e1c40' " dark gray
 
 " Highlight function {{{
@@ -49,7 +49,7 @@ function! s:hi(group, fg, bg, style, special)
   execute l:command
 endfunction " }}}
 
-call s:hi('Normal',           s:yell, s:blac, '', '')
+call s:hi('Normal',           s:lora, s:blac, '', '')
 call s:hi('SpecialKey',       s:dblu, s:blac, '', '')
 call s:hi('NonText',          s:dblu, '',     'NONE', '')
 call s:hi('Directory',        s:dblu, s:blac, '', '')
@@ -59,12 +59,12 @@ call s:hi('Search',           s:blac, s:dora, '', '')
 call s:hi('MoreMsg',          s:blac, s:yell, 'NONE', '')
 call s:hi('ModeMsg',          s:blac, s:yell, 'NONE', '')
 call s:hi('LineNr',           s:dblu, s:blac, '', '')
-call s:hi('CursorLineNr',     s:yell, s:dgra, 'NONE', '')
+call s:hi('CursorLineNr',     s:lora, s:dgra, 'NONE', '')
 call s:hi('Question',         s:blac, s:yell, 'NONE', '')
 call s:hi('StatusLine',       s:blac, s:dblu, 'NONE', '')
 call s:hi('StatusLineNC',     s:dblu, s:blac, 'NONE', '')
 call s:hi('VertSplit',        s:blac, s:dblu, '', '')
-call s:hi('Title',            s:blac, s:yell, 'NONE', '')
+call s:hi('Title',            s:lblu, s:blac, 'NONE', '')
 call s:hi('Visual',           s:blac, s:lblu, '', '')
 call s:hi('VisualNOS',        s:blac, s:lblu, 'NONE', '')
 call s:hi('WarningMsg',       s:blac, s:yell, '', '')
@@ -93,8 +93,8 @@ call s:hi('CursorLine',       'NONE', s:dgra, '', '')
 call s:hi('ColorColumn',      'NONE', s:dgra, '', '')
 call s:hi('StatusLineTerm',   s:blac, s:dblu, 'NONE', '')
 call s:hi('StatusLineTermNC', s:dblu, s:blac, '', '')
-call s:hi('Cursor',           s:blac, s:yell, '', '')
-call s:hi('lCursor',          s:blac, s:yell, '', '')
+call s:hi('Cursor',           s:blac, s:lora, '', '')
+call s:hi('lCursor',          s:blac, s:lora, '', '')
 call s:hi('MatchParen',       s:blac, s:dblu, '', '')
 call s:hi('ToolbarLine',      s:yell, s:blac, '', '')
 call s:hi('ToolbarButton',    s:yell, s:blac, 'NONE', '')
