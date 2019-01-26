@@ -1,7 +1,7 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web.de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2018-12-07
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2019-01-19
 
 " Init {{{
 hi clear
@@ -96,14 +96,14 @@ call s:hi('StatusLineTermNC', s:dblu, s:blac, '', '')
 call s:hi('Cursor',           s:blac, s:lora, '', '')
 call s:hi('lCursor',          s:blac, s:lora, '', '')
 call s:hi('MatchParen',       s:blac, s:dblu, '', '')
-call s:hi('ToolbarLine',      s:yell, s:blac, '', '')
-call s:hi('ToolbarButton',    s:yell, s:blac, 'NONE', '')
+call s:hi('ToolbarLine',      s:lora, s:blac, '', '')
+call s:hi('ToolbarButton',    s:lora, s:blac, 'NONE', '')
 call s:hi('Comment',          s:gree, s:blac, '', '')
 call s:hi('Constant',         s:lblu, s:blac, '', '')
 call s:hi('Special',          s:dblu, s:blac, '', '')
 call s:hi('Identifier',       s:mred, s:blac, '', '')
 call s:hi('Statement',        s:dora, s:blac, 'NONE', '')
-call s:hi('PreProc',          s:lblu, s:blac, '', '')
+call s:hi('PreProc',          s:mage, s:blac, '', '')
 call s:hi('Type',             s:lora, s:blac, 'NONE', '')
 call s:hi('Underlined',       'NONE', 'NONE', 'UNDERLINE', '')
 call s:hi('Ignore',           s:dgra, 'NONE', '', '')
