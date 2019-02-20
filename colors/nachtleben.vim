@@ -1,7 +1,7 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web.de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2019-01-19
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2019-02-20
 
 " Init {{{
 hi clear
@@ -55,7 +55,7 @@ call s:hi('NonText',          s:dblu, '',     'NONE', '')
 call s:hi('Directory',        s:dblu, s:blac, '', '')
 call s:hi('ErrorMsg',         s:blac, s:mred, '', '')
 call s:hi('IncSearch',        'NONE', 'NONE', 'INVERSE', '')
-call s:hi('Search',           s:blac, s:dora, '', '')
+call s:hi('Search',           s:blac, s:dblu, '', '')
 call s:hi('MoreMsg',          s:blac, s:yell, 'NONE', '')
 call s:hi('ModeMsg',          s:blac, s:yell, 'NONE', '')
 call s:hi('LineNr',           s:dblu, s:blac, '', '')
@@ -125,3 +125,4 @@ hi Underlined     ctermfg=NONE ctermfg=NONE
 hi! link lilySlur         Comment
 hi! link vimCommentString Comment
 hi! link vimCommentTitle  Comment
+hi! link TrailingSpac     DiffDelete
