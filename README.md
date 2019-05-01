@@ -14,7 +14,7 @@ Some design choices:
 
 ## Installation
 
-Copy `nachleben.vim` into your `~/.vim/colors` folder.
+Copy `nachtleben.vim` into your `~/.vim/colors` folder.
 
 Add this to your `vimrc`:
 
