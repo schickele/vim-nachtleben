@@ -40,6 +40,7 @@ function! s:hi(group, fg, bg, style, special)
 
   if (!empty(a:style))
     let l:command .= ' gui=' . a:style
+    let l:command .= ' cterm=' . a:style
   endif
 
   if (!empty(a:special))
