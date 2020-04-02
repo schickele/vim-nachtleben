@@ -1,7 +1,7 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web.de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2019-02-20
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2020-04-02
 
 " Init {{{
 hi clear
@@ -107,8 +107,8 @@ call s:hi('PreProc',          s:mage, s:blac, '', '')
 call s:hi('Type',             s:lora, s:blac, 'NONE', '')
 call s:hi('Underlined',       'NONE', 'NONE', 'UNDERLINE', '')
 call s:hi('Ignore',           s:dgra, 'NONE', '', '')
-call s:hi('Error',            s:blac, s:mred, '', '')
-call s:hi('Todo',             s:blac, s:lora, '', '')
+call s:hi('Error',            s:mred, s:blac, 'REVERSE', '')
+call s:hi('Todo',             s:lora, s:blac, 'REVERSE', '')
 
 hi CursorLine     cterm=NONE
 hi DiffText       cterm=NONE
@@ -126,3 +126,11 @@ hi! link lilySlur         Comment
 hi! link vimCommentString Comment
 hi! link vimCommentTitle  Comment
 hi! link TrailingSpac     DiffDelete
+
+hi! link cType            Identifier
+hi! link cBlock           PreProc
+hi! link cStructure       Identifier
+
+" Pandoc (2019-06-17)
+hi! link pandocEmphasis Statement
+hi! link pandocStrong   Statement
