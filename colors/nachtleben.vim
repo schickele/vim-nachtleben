@@ -1,7 +1,7 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web.de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2020-04-02
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2022-09-27
 
 " Init {{{
 hi clear
@@ -23,8 +23,8 @@ let s:lblu = '#06bed9' " light blue
 let s:dblu = '#327ec9' " dark blue
 let s:mage = '#c026c3' " magenta
 
-let s:blac = '#040409' " bluish black
-let s:dgra = '#1e1c40' " dark gray
+let s:blac = '#040409' " bluish black for background
+let s:dgra = '#22224d' " dark gray
 
 " Highlight function {{{
 function! s:hi(group, fg, bg, style, special)
@@ -108,8 +108,8 @@ call s:hi('PreProc',          s:mage, s:blac, '', '')
 call s:hi('Type',             s:lora, s:blac, 'NONE', '')
 call s:hi('Underlined',       'NONE', 'NONE', 'UNDERLINE', '')
 call s:hi('Ignore',           s:dgra, 'NONE', '', '')
-call s:hi('Error',            s:mred, s:blac, 'REVERSE', '')
-call s:hi('Todo',             s:lora, s:blac, 'REVERSE', '')
+call s:hi('Error',            s:mred, s:blac, 'UNDERLINE', '')
+call s:hi('Todo',             s:mred, s:blac, 'UNDERLINE', '')
 
 hi CursorLine     cterm=NONE
 hi DiffText       cterm=NONE
@@ -132,6 +132,6 @@ hi! link cType            Identifier
 hi! link cBlock           PreProc
 hi! link cStructure       Identifier
 
-" Pandoc (2019-06-17)
+" Pandoc (2019-06)
 hi! link pandocEmphasis Statement
 hi! link pandocStrong   Statement
