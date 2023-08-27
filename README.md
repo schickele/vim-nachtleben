@@ -5,7 +5,7 @@ Dark colorscheme with vivid colors for Vim. Well suited for Vim scripts and ConT
 
 Some design choices:
 
-- 8 carefully selected, bright colors + blueish black as background
+- 8 carefully selected, bright colors + almost black as background
 - Normal text in light orange for optimal contrast and a warm global touch
 - Comments are set in green (can't live without)
 - Visual selection in solid light blue (softer highlighting à la monokai doesn't work for me)
