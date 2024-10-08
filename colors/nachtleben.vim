@@ -1,7 +1,7 @@
 "    _  __         __   __  __    __
 "   / |/ /__ _____/ /  / /_/ /__ / /  ___ ___     /  nachtleben.vim - Vim color file
 "  /    / _ `/ __/ _ \/ __/ / -_) _ \/ -_) _ \   /  Author: <schickele|you~know~what|web|dot|de>
-" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2024-04
+" /_/|_/\_,_/\__/_//_/\__/_/\__/_.__/\__/_//_/  /  Created: 2018-11 | Last change: 2024-10
 
 " Init {{{
 hi clear
@@ -17,28 +17,28 @@ let g:colors_name='nachtleben' " }}}
 " xterm256 colors (≥ 2023-08)
 " Hex code identical with xterm256 color numbers below
 
-let s:mred = '#ff005f' " red
-let s:dora = '#ff5f00' " dark orange
-let s:lora = '#ffaf00' " light orange: default fg color
-let s:yell = '#ffd700' " yellow
-let s:gree = '#00d75f' " green
-let s:lblu = '#00d7ff' " light blue
-let s:dblu = '#0087ff' " dark blue
-let s:mage = '#ff00af' " magenta
-let s:blac = '#080808' " background black (3%)
-let s:dgra = '#262626' " cursorline gray
+let s:mred = '#ff5f5f' " red
+let s:dora = '#ff875f' " dark orange
+let s:lora = '#ffaf5f' " light orange: default fg color
+let s:yell = '#ffff5f' " yellow
+let s:gree = '#87d787' " green
+let s:lblu = '#5fd7ff' " light blue
+let s:dblu = '#5f87ff' " dark blue
+let s:mage = '#ff5fd7' " magenta
+let s:blac = '#121212' " background black (7%)
+let s:dgra = '#303030' " cursorline gray
 let s:whit = '#ffffff' " pure white
 
-let s:mred256 = '197'
-let s:dora256 = '202'
-let s:lora256 = '214'
-let s:yell256 = '220'
-let s:gree256 = '41'
-let s:lblu256 = '45'
-let s:dblu256 = '33'
-let s:mage256 = '199'
-let s:blac256 = '232'
-let s:dgra256 = '235'
+let s:mred256 = '203'
+let s:dora256 = '209'
+let s:lora256 = '215'
+let s:yell256 = '227'
+let s:gree256 = '114'
+let s:lblu256 = '81'
+let s:dblu256 = '69'
+let s:mage256 = '206'
+let s:blac256 = '233'
+let s:dgra256 = '236'
 let s:whit256 = '15'
 
 " Highlight function {{{
