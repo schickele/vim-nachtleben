@@ -25,11 +25,11 @@ color nachtleben
 
 ## Vim script preview
 
-![Vim script example](/screenshot_nachtleben_vim.png)
+![Vim script example](/bildschirmfoto_nachtleben_vim.png)
 
 ## ConTeXt file preview
 
-![ConTeXt file example](/screenshot_nachtleben_context.png)
+![ConTeXt file example](/bildschirmfoto_nachtleben_ctx.png)
 
 Text set in Input.
 
